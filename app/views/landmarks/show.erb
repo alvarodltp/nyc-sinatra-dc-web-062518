@@ -8,3 +8,6 @@
     <td><%= @landmark.year_completed %></td>
   </tr>
 <table>
+<form action="/landmarks/<%= @landmark.id %>/edit" method="get">
+  <input id="submit" type="submit" name="submit" value="Edit Landmark">
+</form>
